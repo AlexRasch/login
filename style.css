@@ -13,6 +13,15 @@ body {
     background: #23242a;
 }
 
+/* Form */
+.form {
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #28292d;
+    z-index: 10;
+}
+
 .box {
     position: relative;
     width: 380px;
@@ -22,6 +31,9 @@ body {
     overflow: hidden;
 }
 
+
+
+/* Animation */
 .box::before {
     content:'';
     position: absolute;
